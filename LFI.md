@@ -1,6 +1,6 @@
 Local file inclusion
 
-check id_rsa
+# check id_rsa
 1 - check /proc/self/status
 ```
 Name:	httpd
@@ -52,3 +52,6 @@ asterisk:x:100:101:Asterisk VoIP PBX:/var/lib/asterisk:/bin/bash
 
 3 - check for id_rsa
 /var/lib/asterisk/.ssh/id_rsa
+
+# proc self environ
+- check proc self environ
