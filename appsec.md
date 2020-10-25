@@ -1,6 +1,6 @@
 - [Host_Header_Injection](#Host_Header_Injection)
 
-#Host_Header_Injection
+# Host_Header_Injection
 
 #### Malicious port
 ```
@@ -45,6 +45,7 @@ X-Forwarded-Server
 X-HTTP-Host-Override
 Forwarded
 ```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 References
-- https://portswigger.net/web-security/host-header
+- https://portswigger.net
