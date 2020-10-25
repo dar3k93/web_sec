@@ -1,6 +1,6 @@
-- [Host_Header_Injection](#Host Header Injection)
+- [Host_Header_Injection](#Host_Header_Injection)
 
-#Host Header Injection
+#Host_Header_Injection
 
 #### Malicious port
 ```
