@@ -5,6 +5,8 @@
   - [Host Header Injection absolute URL](#HHI_absolute_URL)
   - [Host Header Injection line wrapping](HHI_line_wrapping)
   - [Host Header Injectio_inject_headers](#HHI_inject_headers)
+  
+- [Request Smuggling](#Request_smuggling)
 
 # Host_Header_Injection
 
@@ -40,7 +42,7 @@ GET /example HTTP/1.1
 Host: vulnerable-website.com
 ```
 
-## Inject headers
+## HHI_inject_headers
 ```
 GET /example HTTP/1.1
 Host: vulnerable-website.com
@@ -53,6 +55,8 @@ X-HTTP-Host-Override
 Forwarded
 ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Request_smuggling
 
 References
 - https://portswigger.net
