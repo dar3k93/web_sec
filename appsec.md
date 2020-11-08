@@ -14,6 +14,23 @@
     - [TE.CL](#TE.CL)
     - [TE.TE](#TE.TE)
     
+- [Cross-origin resource sharing](#CORS)
+   - []()
+   - []()
+   - []()
+
+- [Server-side request forgery](#SSRF)
+  - []()
+  - []()
+  
+- [Server-side template injection](#SSTI)
+  - []()
+  - []()
+  
+- [WebSockets](#WebSockets)
+  - []()
+  - []()
+  
 # Host_Header_Injection
 
 ## HHI_malicious_port
