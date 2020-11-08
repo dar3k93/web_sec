@@ -7,9 +7,9 @@
   - [Host Header Injectio_inject_headers](#HHI_inject_headers)
   
 - [Request Smuggling](#Request_smuggling)
-  - [Content-Length](#Content-Length)
-  - [Transfer-Encoding](#Transfer-Encoding)
-  - [Server behavior](#RS_server_behavior)
+  - [Request Smuggling Content-Length](#Content-Length)
+  - [Request Smuggling Transfer-Encoding](#Transfer-Encoding)
+  - [Request Smuggling Server behavior](#RS_server_behavior)
     - [CL.TE](#CL.TE)
     - [TE.CL](#TE.CL)
     - [TE.TE](#TE.TE)
