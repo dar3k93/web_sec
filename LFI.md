@@ -55,3 +55,5 @@ asterisk:x:100:101:Asterisk VoIP PBX:/var/lib/asterisk:/bin/bash
 
 # proc self environ
 - check proc self environ
+
+You might be able to use nested traversal sequences, such as ....// or ....\/, which will revert to simple traversal sequences when the inner sequence is stripped. 
