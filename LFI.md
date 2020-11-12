@@ -57,3 +57,5 @@ asterisk:x:100:101:Asterisk VoIP PBX:/var/lib/asterisk:/bin/bash
 - check proc self environ
 
 You might be able to use nested traversal sequences, such as ....// or ....\/, which will revert to simple traversal sequences when the inner sequence is stripped. 
+
+You might be able to use various non-standard encodings, such as ..%c0%af or ..%252f, to bypass the input filter. 
