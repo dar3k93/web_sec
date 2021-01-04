@@ -164,7 +164,7 @@ To uncover a TE.TE vulnerability, it is necessary to find some variation of the 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # CSV injection
 
-## CSV injection payloads
+## CSV injecton payloads
 
 - notepad
 ```
