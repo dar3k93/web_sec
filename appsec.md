@@ -14,8 +14,8 @@
     - [TE.CL](#TE.CL)
     - [TE.TE](#TE.TE)
     
-- [CSV injection](#CSV_injection)
-   - [CSV injecton payloads](CSV_injecton_payloads)
+- [CSV injection](#CSV-injection)
+   - [CSV injecton payloads](CSV-injecton-payloads)
     
 - [Cross-origin resource sharing](#CORS)
    - []()
