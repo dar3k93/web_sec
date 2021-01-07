@@ -7,7 +7,7 @@
   - [Host Header Injectio_inject_headers](#HHI_inject_headers)
 
 - [Cross-site-scripting](#Cross-site-scripting)
-  - [Angle brackets HTML-encoded](Angle-brackets-HTML-encoded)
+  - [Angle brackets HTML encoded](Angle-brackets-HTML-encoded)
   
 - [Request Smuggling](#Request_smuggling)
   - [Request Smuggling Content-Length](#Content-Length)
@@ -93,7 +93,7 @@ Forwarded
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Cross-site-scripting
 
-## Angle brackets HTML-encoded
+## Angle brackets HTML encoded
 ```
 GET /?search="onmouseover="alert(123) HTTP/1.1
 ```
