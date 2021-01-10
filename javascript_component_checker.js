@@ -19,9 +19,9 @@ function vue_js_version_checker() {
 }
 
 function jquery_verison_checker(){
-    console.log("jQuery version found: ", jQuery().jquery)
+    console.log("jQuery version found: " + jQuery().jquery)
 }
 
 function bootstrap_verison_check(){
-    console.log("Bootstrap verison found: ", $.fn.tooltip.Constructor.VERSION)
+    console.log("Bootstrap verison found: " + $.fn.tooltip.Constructor.VERSION)
 }
