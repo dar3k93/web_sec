@@ -1,3 +1,6 @@
+- [Gobuster](#Gobuster)
+- [Nikto](#Nikto)
+
 # Gobuster
 
 #### dir mode
@@ -24,4 +27,42 @@ Other useful flag:
 vhost mode allows to brute-force virtual hosts
 ```
 gobuster vhost -u http://mydomain.test -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+```
+
+# Nikto
+
+#### Basic scan
+```
+nikto -h <target_ip>
+```
+
+#### Scanning multiple hosts & ports
+- Multiple hosts
+```
+nmap -p80 target_ip/24 -oG - | nikto -h -
+```
+- Multiple ports
+```
+nikto -h target_ip -p 80,8000,8080
+```
+
+#### Plugins
+- list plugin
+```
+nikto --list-plugins
+```
+
+- Use plugin
+```
+nikto -h http://<target_ip> -Plugin <plugin_name>
+```
+
+#### Verbosing
+```
+nikto -h http://<target_ip> -Display {1-2,E}
+```
+
+#### Scan Tuning
+```
+nikto -h http:///<target_ip> -Tuning {0,2,3,4,8,9}
 ```
